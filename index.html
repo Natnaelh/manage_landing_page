@@ -17,29 +17,29 @@
           <img src="img/logo.svg" alt="Logo " />
         </div>
         <!-- Menus -->
-        <div class="hidden md:flex space-x-6">
+        <div class="hidden md:flex space-x-4">
           <a
-            class="hover:text-darkGrayishBlue hover:underline underline-offset-4 focus:text-brightRed focus:underline underline-offset-4 font-bold"
+            class="hover:text-darkGrayishBlue hover:underline underline-offset-4 focus:text-brightRed focus:underline underline-offset-4 text-lg font-bold"
             href="#"
             >Pricing</a
           >
           <a
-            class="hover:text-darkGrayishBlue hover:underline underline-offset-4 focus:text-brightRed focus:underline underline-offset-4 font-bold"
+            class="hover:text-darkGrayishBlue hover:underline underline-offset-4 focus:text-brightRed focus:underline underline-offset-4 text-lg font-bold"
             href="#"
             >Product</a
           >
           <a
-            class="hover:text-darkGrayishBlue hover:underline underline-offset-4 focus:text-brightRed focus:underline underline-offset-4 font-bold"
+            class="hover:text-darkGrayishBlue hover:underline underline-offset-4 focus:text-brightRed focus:underline underline-offset-4 text-lg font-bold"
             href="#"
             >About Us</a
           >
           <a
-            class="hover:text-darkGrayishBlue hover:underline underline-offset-4 focus:text-brightRed focus:underline underline-offset-4 font-bold"
+            class="hover:text-darkGrayishBlue hover:underline underline-offset-4 focus:text-brightRed focus:underline underline-offset-4 text-lg font-bold"
             href="#"
             >Careers</a
           >
           <a
-            class="hover:text-darkGrayishBlue hover:underline underline-offset-4 focus:text-brightRed focus:underline underline-offset-4 font-bold"
+            class="hover:text-darkGrayishBlue hover:underline underline-offset-4 focus:text-brightRed focus:underline underline-offset-4 text-lg font-bold"
             href="#"
             >Community</a
           >
@@ -48,7 +48,7 @@
         <div>
           <a
             href="#"
-            class="p-3 px-6 py-2 text-white bg-brightRed rounded-full baseline hover:bg-brightRedLight hidden md:block"
+            class="p-3 px-6 py-2 text-lg text-white bg-brightRed rounded-full baseline hover:bg-brightRedLight hidden md:block"
             >Get Started</a
           >
         </div>
@@ -61,13 +61,15 @@
         class="container flex flex-col-reverse md:flex-row items-center px-6 mx-auto mt-10 space-y-0 md:space-y-0"
       >
         <!-- Left Item -->
-        <div class="flex flex-col mb-32 space-y-12 md:w-1/2">
+        <div
+          class="flex flex-col items-center md:items-start mb-32 space-y-12 md:w-1/2"
+        >
           <h1
             class="max-w-md text-4xl font-bold text-center md:text-5xl md:text-left"
           >
             Bring everyone together to build better products.
           </h1>
-          <p class="max-w-md text-center text-darkGrayishBlue md:text-left">
+          <p class="max-w-sm text-center text-darkGrayishBlue md:text-left">
             Manage makes it simple for software teams to plan day-to-day tasks
             while keeping the larger team goals in view.
           </p>
@@ -82,6 +84,114 @@
         <!-- Image -->
         <div class="md:w-1/2 space-y-12 mb-32">
           <img src="img/illustration-intro.svg" alt="illustration-intro" />
+        </div>
+      </div>
+    </section>
+
+    <!-- Features Section -->
+    <section id="features">
+      <!-- Flex Container -->
+      <div
+        class="container flex flex-col px-4 mx-auto mt-10 space-y-12 md:space-y-0 md:flex-row"
+      >
+        <!--  What's the different -->
+        <div
+          class="flex flex-col mb-8 items-center space-y-12 md:w-1/2 md:items-start"
+        >
+          <h2
+            class="max-w-md text-4xl font-bold text-center md:text-5xl md:text-left"
+          >
+            What's the different about Manage?
+          </h2>
+          <p class="max-w-sm text-center text-darkGrayishBlue md:text-left">
+            Manage provides all the functionality your team needs, without
+            complexity. Our software is tailor-made for modern digital product
+            teams.
+          </p>
+        </div>
+        <!-- Numbered List -->
+        <div class="flex flex-col md:w-1/2">
+          <!-- List item 1 -->
+          <div class="flex flex-col space-y-3 md:space-y-0 md:flex-row mb-4">
+            <!-- Heading Part -->
+            <div class="rounded-full bg-brightRedSupLight md:bg-transparent">
+              <div class="flex items-center space-x-2">
+                <div
+                  class="px-4 py-2 text-white rounded-full md:py-1 bg-brightRed"
+                >
+                  01
+                </div>
+                <h3 class="text-lg font-bold md:hidden md:mb-4">
+                  Track company-wide progress
+                </h3>
+              </div>
+            </div>
+            <div class="mx-4">
+              <h3 class="text-lg font-bold hidden md:block">
+                Track company-wide progress
+              </h3>
+              <p class="text-darkGrayishBlue">
+                See how your day-to-day tasks fit into the wider vision. Go from
+                tracking progress at the milestone level all the way done to the
+                smallest of details. Never lose sight of the bigger picture
+                again.
+              </p>
+            </div>
+          </div>
+
+          <!-- List item 2 -->
+          <div class="flex flex-col space-y-3 md:space-y-0 md:flex-row mb-4">
+            <!-- Heading Part -->
+            <div class="rounded-full bg-brightRedSupLight md:bg-transparent">
+              <div class="flex items-center space-x-2">
+                <div
+                  class="px-4 py-2 text-white rounded-full md:py-1 bg-brightRed"
+                >
+                  02
+                </div>
+                <h3 class="text-lg font-bold md:hidden md:mb-4">
+                  Advanced built-in reports
+                </h3>
+              </div>
+            </div>
+            <div class="mx-4">
+              <h3 class="text-lg font-bold hidden md:block">
+                Advanced built-in reports
+              </h3>
+              <p class="text-darkGrayishBlue">
+                Set internal delivery estimates and track progress toward
+                company goals. Our customisable dashboard helps you build out
+                the reports you need to keep key stakeholders informed.
+              </p>
+            </div>
+          </div>
+
+          <!-- List item 3 -->
+          <div class="flex flex-col space-y-3 md:space-y-0 md:flex-row mb-4">
+            <!-- Heading Part -->
+            <div class="rounded-full bg-brightRedSupLight md:bg-transparent">
+              <div class="flex items-center space-x-2">
+                <div
+                  class="px-4 py-2 text-white rounded-full md:py-1 bg-brightRed"
+                >
+                  03
+                </div>
+                <h3 class="text-lg font-bold md:hidden md:mb-4">
+                  Everything you need in one place
+                </h3>
+              </div>
+            </div>
+            <div class="mx-4">
+              <h3 class="text-lg font-bold hidden md:block">
+                Everything you need in one place
+              </h3>
+              <p class="text-darkGrayishBlue">
+                Stop jumping from one service to another to communicate, store
+                files, track tasks and share documents. Manage offers an
+                all-in-one team productivity solution.
+              </p>
+            </div>
+          </div>
         </div>
       </div>
     </section>
